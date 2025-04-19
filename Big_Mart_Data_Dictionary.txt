@@ -1,0 +1,14 @@
+Feature Name			Type			Description
+
+Item_Identifier			Categorical		Unique ID for each product.
+Item_Weight			Float			Weight of the product in kilograms.
+Item_Fat_Content		Categorical		Indicates whether the item is low fat or regular.
+Item_Visibility			Float			The percentage of total display area allocated to the product in the store.
+Item_Type			Categorical		Category of the product (e.g., Dairy, Soft Drinks, Meat, etc.).
+Item_MRP			Float			Maximum Retail Price of the product in dollar.
+Outlet_Identifier		Categorical		Unique ID for each store or outlet.
+Outlet_Establishment_Year	Integer			The year when the store was established.
+Outlet_Size			Categorical		Size of the store: Small, Medium, or High.
+Outlet_Location_Type		Categorical		Tier or type of city where the outlet is located: Tier 1, Tier 2, or Tier 3.
+Outlet_Type			Categorical		Type of outlet (e.g., Grocery Store, Supermarket Type1, Type2, Type3).
+Item_Outlet_Sales		Float			Sales of the product at the particular store. (Target variable)
